@@ -40,7 +40,11 @@
         <header class="masthead bg-primary text-white text-center">
             <div class="container d-flex align-items-center flex-column">
                 <!-- Masthead Avatar Image-->
-                <img class="masthead-avatar mb-5" src="assets/img/portfolio/adri_robot_circular.png" alt="..." />
+                <img class="masthead-avatar mb-5" 
+                    src="assets/img/portfolio/adri_robot_circular.png" 
+                    alt="..." 
+                    style="width: 300px; height: auto;">
+
                 <!-- Masthead Heading-->
                 <h1 class="masthead-heading text-uppercase mb-0">Adriana Delgado Lee</h1>
                 <!-- Icon Divider-->
@@ -59,20 +63,46 @@
             <div class="container">
                 <!-- About Section Heading-->
                 <h2 class="page-section-heading text-center text-uppercase text-secondary">About</h2>
+                
                 <!-- Icon Divider-->
-                <div class="divider-custom divider-light">
+                <div class="divider-custom divider-dark">
                     <div class="divider-custom-line"></div>
                     <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
                     <div class="divider-custom-line"></div>
                 </div>
-                <!-- About Section Content-->
+
                 <div class="row">
-                    <div class="text-center"><p class="lead">I am Adriana Lee, a Mechatronic Systems Engineering graduate from Simon Fraser University with a strong interest in mechanical design, robotics, and system integration. I am passionate about developing innovative and sustainable engineering solutions that combine mechanical, electrical, and software disciplines to solve real-world problems.
-                    <br>During my time at Powertech Labs, I worked as part of the engineering team supporting hydrogen infrastructure development. I designed and implemented mechanical testing systems, including a custom hydrogen particulate test that was successfully integrated into company testing protocols. I also designed the mechanical component of an automated hydrogen test bench and developed the company’s SolidWorks and AutoCAD component libraries, streamlining design workflows across multiple teams. This role strengthened my expertise in 3D modeling, design documentation, and prototype development, while teaching me to collaborate effectively across electrical, software, and manufacturing disciplines.
-                    <br>I have also led and contributed to award-winning design projects, including an electronic Braille tablet and automated assembly prototypes, which challenged me to think critically, iterate quickly, and deliver practical solutions under tight timelines.
-                    <br>As a Project Lead for Team Phantom, SFU’s Formula SAE electric race car team, I designed and manufactured precision jigs and mounting systems to support the assembly of the vehicle’s frame and subsystems. This experience deepened my understanding of collaborative design, precision manufacturing, and mechanical performance under real-world constraints while strengthening my leadership and project management skills.
-                    <br>I am constantly seeking new skills to learn and technologies to master, and I am motivated by projects that blend sustainability, innovation, and hands-on design. My goal is to continue developing as an engineer through work that pushes boundaries, encourages interdisciplinary collaboration, and makes a meaningful impact.</p></div>
+                    <!--Image-->
+                    <div class="col-md-4 text-center"style="margin-bottom:20px; margin-top:60px;" >
+                        <img src="assets\img\Adri\adri solder.jpg" 
+                            alt="My Photo"
+                            class="img-fluid rounded" 
+                            style="border-radius: 15px;">
+                    </div>
+                    
+                    <!-- About Section Content-->
+                    <div class="col-md-8">
+                        <div class="text-align:left">
+                            <p class="lead" style="text-indent: 40px;">
+                                I am Adriana Lee, a Mechatronic Systems Engineering graduate from Simon Fraser University with a strong passion for mechanical design and rapid prototyping. I am particularly interested in robotics and automation to create practical, innovative, and sustainable solutions.
+                            </p>
+                            <p class="lead" style="text-indent: 40px;">
+                                Throughout my degree, I prioritized gaining hands-on experience. At Powertech Labs, I contributed to the Hydrogen Stations team on multiple projects, including an automated test bench, a hydrogen particulate test jig, a CAD component library, and a Non-Conformance Reporting (NCR) system. I also gained design experience at Smith + Andersen, supporting mechanical systems projects in the building services sector. These experiences strengthened my technical foundation, broadened my understanding of engineering workflows, and deepened my appreciation for teamwork in complex, safety-critical environments.
+                            </p>
+                            <p class="lead" style="text-indent: 40px;">
+                                Beyond industry, I have been actively involved in SFU’s engineering community through student teams, competitions, and leadership roles. Within Team Phantom, SFU’s Formula SAE electric race car team, I had contributed as a senior member and project lead to the mechanical design and manufacturing of the car.
+                            </p>
+                            <p class="lead" style="text-indent: 40px;">
+                                In the Mechatronic Systems Engineering Student Society (MSESS), I served as a liaison between students and faculty, fostered sponsor relationships to secure over $30,000 for student initiatives, and organized events to support professional development. My commitment to engineering and collaboration has also led me to represent SFU at national conferences and competitions, contributing to app development, product prototypes, and business proposals.
+                            </p>
+                            <p class="lead" style="text-indent: 40px;">
+                                I am an energetic and driven individual who thrives in fast-paced, collaborative environments. I am constantly seeking new challenges and opportunities to expand my skills while contributing to projects that push the boundaries of engineering design and innovation.
+                            </p>
+                        </div>
+                    </div>                    
                 </div>
+
+
             </div>
         </section>
 <!-- ____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________-->         
@@ -299,11 +329,10 @@
                 </div>
             </div>
         </section>
-
 <!-- ____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________-->         
         <!--Skills-->
-        <section class="page-section portfolio bg-white mb-0" id="portfolio">
-            <div class="container">
+        <section class="page-section" id="Skills">
+            <div class="container" style="margin-bottom:20px;">
                 <!-- Portfolio Section Heading-->
                 <h2 class="page-section-heading text-center text-uppercase mb-0">Skills</h2>
                 <!-- Icon Divider-->
@@ -314,145 +343,348 @@
                 </div>
                 
                 <!--TECHNICAL SKILLS************************-->
-                <h3 class="text-align:left text-primary text-uppercase mb-4">Technical Skills</h3>
-                
-                <!--3D Printing-->
-                <div class="d-flex align-items-center mb-4">
-                    <!-- Skill Name -->
-                    <div class="me-3" style="width: 150px; text-align: right;">3D Printing</div>
+                <section id="Technical Skills" class="mb-5">
+                    <h3 class="text-align:left text-secondary text-uppercase mb-4">Technical Skills</h3>
+                    
+                    <!--3D Printing-->
+                    <div class="d-flex align-items-center mb-4">
+                        <!-- Skill Name -->
+                        <div class="me-3" style="width: 150px; text-align: right;">3D Printing</div>
 
-                    <!-- Bar with Thresholds -->
-                    <div style="flex: 1; position: relative;">
-                        <!-- Threshold labels -->
-                        <div class="d-flex justify-content-between position-absolute w-100" style="top: -20px; font-size: 0.75rem;">
-                            <span>Novice</span>
-                            <span>Intermediate</span>
-                            <span>Professional</span>                
-                        </div>
+                        <!-- Bar with Thresholds -->
+                        <div style="flex: 1; position: relative;">
+                            <!-- Threshold labels -->
+                            <div class="d-flex justify-content-between position-absolute w-100" style="top: -20px; font-size: 0.75rem;">
+                                <span>Novice</span>
+                                <span>Intermediate</span>
+                                <span>Professional</span>                
+                            </div>
 
-                        <!-- Progress bar -->
-                        <div class="progress" style="height: 25px; border-radius: 12px; overflow: hidden;">
-                            <div class="progress-bar bg-secondary" role="progressbar" style="width: 70%;"></div>
+                            <!-- Progress bar -->
+                            <div class="progress" style="height: 25px; border-radius: 12px; overflow: hidden;">
+                                <div class="progress-bar bg-secondary" role="progressbar" style="width: 70%;"></div>
+                            </div>
                         </div>
                     </div>
-                </div>
+
+                    <!--Laser Cutting-->
+                    <div class="d-flex align-items-center mb-4">
+                        <div class="me-3" style="width: 150px; text-align: right;">Laser Cutting</div>
+                        <div style="flex: 1; position: relative;">
+                            <div class="d-flex justify-content-between position-absolute w-100" style="top: -20px; font-size: 0.75rem;">
+                            </div>
+                            <div class="progress" style="height: 25px; border-radius: 12px; overflow: hidden;">
+                                <div class="progress-bar bg-secondary" role="progressbar" style="width:60%;"></div>
+                            </div>
+                        </div>
+                    </div>          
+                    
+                    <!--Precision Machining-->
+                    <div class="d-flex align-items-center mb-4">
+                        <div class="me-3" style="width: 150px; text-align: right;">Machine Tools<br>(Lathes, Mills, Band Saws)</div>
+                        <div style="flex: 1; position: relative;">
+                            <div class="d-flex justify-content-between position-absolute w-100" style="top: -20px; font-size: 0.75rem;">
+                            </div>
+                            <div class="progress" style="height: 25px; border-radius: 12px; overflow: hidden;">
+                                <div class="progress-bar bg-secondary" role="progressbar" style="width:70%;"></div>
+                            </div>
+                        </div>
+                    </div>    
+                    
+                    <!--Soldering-->
+                    <div class="d-flex align-items-center mb-4">
+                        <div class="me-3" style="width: 150px; text-align: right;">Soldering<br>(Hand & Hot Air)</div>
+                        <div style="flex: 1; position: relative;">
+                            <div class="d-flex justify-content-between position-absolute w-100" style="top: -20px; font-size: 0.75rem;">
+                            </div>
+                            <div class="progress" style="height: 25px; border-radius: 12px; overflow: hidden;">
+                                <div class="progress-bar bg-secondary" role="progressbar" style="width:60%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
 
                 <!--SOFTWARES*******************************-->
-                <h3 class="text-align:left text-primary text-uppercase mb-4">Softwares</h3>
+                <section id="Softwares" class="mb-5">
+                    <h3 class="text-align:left text-primary text-uppercase mb-4">Softwares</h3>
 
-                <!-- SolidWorks -->
-                <div class="d-flex align-items-center mb-4">
-                    <!-- Skill Name -->
-                    <div class="me-3" style="width: 150px; text-align: right;">SolidWorks</div>
+                    <!-- SolidWorks -->
+                    <div class="d-flex align-items-center mb-4">
+                        <!-- Skill Name -->
+                        <div class="me-3" style="width: 150px; text-align: right;">SolidWorks</div>
 
-                    <!-- Bar with Thresholds -->
-                    <div style="flex: 1; position: relative;">
-                        <!-- Threshold labels -->
-                        <div class="d-flex justify-content-between position-absolute w-100" style="top: -20px; font-size: 0.75rem;">
-                            <span>Novice</span>
-                            <span>Intermediate</span>
-                            <span>Professional</span>                
-                        </div>
+                        <!-- Bar with Thresholds -->
+                        <div style="flex: 1; position: relative;">
+                            <!-- Threshold labels -->
+                            <div class="d-flex justify-content-between position-absolute w-100" style="top: -20px; font-size: 0.75rem;">
+                                <span>Novice</span>
+                                <span>Intermediate</span>
+                                <span>Professional</span>                
+                            </div>
 
-                        <!-- Progress bar -->
-                        <div class="progress" style="height: 25px; border-radius: 12px; overflow: hidden;">
-                            <div class="progress-bar bg-primary" role="progressbar" style="width: 75%;"></div>
+                            <!-- Progress bar -->
+                            <div class="progress" style="height: 25px; border-radius: 12px; overflow: hidden;">
+                                <div class="progress-bar bg-primary" role="progressbar" style="width: 85%;"></div>
+                            </div>
                         </div>
                     </div>
+
+                    <!-- Prusa Slicer -->
+                    <div class="d-flex align-items-center mb-4">
+                        <div class="me-3" style="width: 150px; text-align: right;">Prusa Slicer</div>
+                        <div style="flex: 1; position: relative;">
+                            <div class="d-flex justify-content-between position-absolute w-100" style="top: -20px; font-size: 0.75rem;">
+                            </div>
+                            <div class="progress" style="height: 25px; border-radius: 12px; overflow: hidden;">
+                                <div class="progress-bar bg-primary" role="progressbar" style="width:75%;"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- AutoCAD -->
+                    <div class="d-flex align-items-center mb-4">
+                        <div class="me-3" style="width: 150px; text-align: right;">AutoCAD</div>
+                        <div style="flex: 1; position: relative;">
+                            <div class="d-flex justify-content-between position-absolute w-100" style="top: -20px; font-size: 0.75rem;">
+                            </div>
+                            <div class="progress" style="height: 25px; border-radius: 12px; overflow: hidden;">
+                                <div class="progress-bar bg-primary" role="progressbar" style="width:65%;"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Revit -->
+                    <div class="d-flex align-items-center mb-4">
+                        <div class="me-3" style="width: 150px; text-align: right;">Revit</div>
+                        <div style="flex: 1; position: relative;">
+                            <div class="d-flex justify-content-between position-absolute w-100" style="top: -20px; font-size: 0.75rem;">
+                            </div>
+                            <div class="progress" style="height: 25px; border-radius: 12px; overflow: hidden;">
+                                <div class="progress-bar bg-primary" role="progressbar" style="width:35%;"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--Bluebeam Revu-->
+                    <div class="d-flex align-items-center mb-4">
+                        <div class="me-3" style="width: 150px; text-align: right;">Bluebeam Revu</div>
+                        <div style="flex: 1; position: relative;">
+                            <div class="d-flex justify-content-between position-absolute w-100" style="top: -20px; font-size: 0.75rem;">
+                            </div>
+                            <div class="progress" style="height: 25px; border-radius: 12px; overflow: hidden;">
+                                <div class="progress-bar bg-primary" role="progressbar" style="width:55%;"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--Revizto-->
+                    <div class="d-flex align-items-center mb-4">
+                        <div class="me-3" style="width: 150px; text-align: right;">Revizto</div>
+                        <div style="flex: 1; position: relative;">
+                            <div class="d-flex justify-content-between position-absolute w-100" style="top: -20px; font-size: 0.75rem;">
+                            </div>
+                            <div class="progress" style="height: 25px; border-radius: 12px; overflow: hidden;">
+                                <div class="progress-bar bg-primary" role="progressbar" style="width:35%;"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--Adobe Photoshop and Illustrator-->
+                    <div class="d-flex align-items-center mb-4">
+                        <div class="me-3" style="width: 150px; text-align: right;">Adobe Photoshop and Illustrator</div>
+                        <div style="flex: 1; position: relative;">
+                            <div class="d-flex justify-content-between position-absolute w-100" style="top: -20px; font-size: 0.75rem;">
+                            </div>
+                            <div class="progress" style="height: 25px; border-radius: 12px; overflow: hidden;">
+                                <div class="progress-bar bg-primary" role="progressbar" style="width:35%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!--CODING LANGUAGES************************-->
+                <section id="Lanuages" class="mb-5">
+                    <h3 class="text-align:left text-success text-uppercase mb-4">Coding Languages</h3>
+                    
+                    <!--MATLAB & Simulink-->
+                    <div class="d-flex align-items-center mb-4">
+                        <div class="me-3" style="width: 150px; text-align: right;">MATLAB & Simulink</div>
+                        <div style="flex: 1; position: relative;">
+                            <!-- Threshold labels -->
+                            <div class="d-flex justify-content-between position-absolute w-100" style="top: -20px; font-size: 0.75rem;">
+                                <span>Novice</span>
+                                <span>Intermediate</span>
+                                <span>Professional</span>                
+                            </div>
+
+                            <div class="d-flex justify-content-between position-absolute w-100" style="top: -20px; font-size: 0.75rem;">
+                            </div>
+                            <div class="progress" style="height: 25px; border-radius: 12px; overflow: hidden;">
+                                <div class="progress-bar bg-success" role="progressbar" style="width: 75%;"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--C++-->
+                    <div class="d-flex align-items-center mb-4">
+                        <div class="me-3" style="width: 150px; text-align: right;">C++</div>
+                        <div style="flex: 1; position: relative;">
+                            <div class="d-flex justify-content-between position-absolute w-100" style="top: -20px; font-size: 0.75rem;">
+                            </div>
+                            <div class="progress" style="height: 25px; border-radius: 12px; overflow: hidden;">
+                                <div class="progress-bar bg-success" role="progressbar" style="width:65%;"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--Python-->
+                    <div class="d-flex align-items-center mb-4">
+                        <div class="me-3" style="width: 150px; text-align: right;">Python</div>
+                        <div style="flex: 1; position: relative;">
+                            <div class="d-flex justify-content-between position-absolute w-100" style="top: -20px; font-size: 0.75rem;">
+                            </div>
+                            <div class="progress" style="height: 25px; border-radius: 12px; overflow: hidden;">
+                                <div class="progress-bar bg-success" role="progressbar" style="width:50%;"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--HTML-->
+                    <div class="d-flex align-items-center mb-4">
+                        <div class="me-3" style="width: 150px; text-align: right;">HTML</div>
+                        <div style="flex: 1; position: relative;">
+                            <div class="d-flex justify-content-between position-absolute w-100" style="top: -20px; font-size: 0.75rem;">
+                            </div>
+                            <div class="progress" style="height: 25px; border-radius: 12px; overflow: hidden;">
+                                <div class="progress-bar bg-success" role="progressbar" style="width:45%;"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--Java Script-->
+                    <div class="d-flex align-items-center mb-4">
+                        <div class="me-3" style="width: 150px; text-align: right;">JavaScript</div>
+                        <div style="flex: 1; position: relative;">
+                            <div class="d-flex justify-content-between position-absolute w-100" style="top: -20px; font-size: 0.75rem;">
+                            </div>
+                            <div class="progress" style="height: 25px; border-radius: 12px; overflow: hidden;">
+                                <div class="progress-bar bg-success" role="progressbar" style="width:25%;"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                </section>
+
+                <!--LANGUAGES*******************************-->
+                <section id="Languages" class="mb-5">
+                    <h3 class="text-align:left text-gray text-uppercase mb-4">Languages</h3>
+                    
+                    <!--English-->
+                    <div class="d-flex align-items-center mb-4">
+                        <div class="me-3" style="width: 150px; text-align: right;">English</div>
+                        <div style="flex: 1; position: relative;">
+
+                            <!-- Threshold labels -->
+                            <div class="d-flex justify-content-between position-absolute w-100" style="top: -20px; font-size: 0.75rem;">
+                                <span>Novice</span>
+                                <span>Intermediate</span>
+                                <span>Professional</span>                
+                            </div>
+
+                            <div class="d-flex justify-content-between position-absolute w-100" style="top: -20px; font-size: 0.75rem;">
+                            </div>
+                            <div class="progress" style="height: 25px; border-radius: 12px; overflow: hidden;">
+                                <div class="progress-bar bg-gray" role="progressbar" style="width:100%;"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--Spanish-->
+                    <div class="d-flex align-items-center mb-4">
+                        <div class="me-3" style="width: 150px; text-align: right;">Spanish</div>
+                        <div style="flex: 1; position: relative;">
+                            <div class="d-flex justify-content-between position-absolute w-100" style="top: -20px; font-size: 0.75rem;">
+                            </div>
+                            <div class="progress" style="height: 25px; border-radius: 12px; overflow: hidden;">
+                                <div class="progress-bar bg-gray" role="progressbar" style="width:75%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </section>
+<!-- ____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________-->         
+        <!--Education-->
+        <section class="page-section portfolio bg-primary text-white mb-0" id="Ed and Awards">
+            <div class="container">
+                <!-- Portfolio Section Heading-->
+                <h2 class="page-section-heading text-center text-uppercase text-white mb-0">Education</h2>
+                
+                <!-- Icon Divider-->
+                <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
                 </div>
 
-                <!-- Prusa Slicer -->
-                <div class="d-flex align-items-center mb-4">
-                    <div class="me-3" style="width: 150px; text-align: right;">Prusa Slicer</div>
-                    <div style="flex: 1; position: relative;">
-                        <div class="d-flex justify-content-between position-absolute w-100" style="top: -20px; font-size: 0.75rem;">
-                        </div>
-                        <div class="progress" style="height: 25px; border-radius: 12px; overflow: hidden;">
-                            <div class="progress-bar bg-primary" role="progressbar" style="width:75%;"></div>
-                        </div>
-                    </div>
-                </div>
+            <div class="row align-items-center">
+                <!--Image-->
+                <div class="col-md-6 text-center"style="margin-bottom:20px; margin-top:60px;" >
+                    <img src="assets\img\Adri\adri grad.jpg" 
+                        alt="My Photo"
+                        class="img-fluid rounded" 
+                        style="border-radius: 15px;">  
+                </div>                  
 
-                <!-- AutoCAD -->
-                <div class="d-flex align-items-center mb-4">
-                    <div class="me-3" style="width: 150px; text-align: right;">AutoCAD</div>
-                    <div style="flex: 1; position: relative;">
-                        <div class="d-flex justify-content-between position-absolute w-100" style="top: -20px; font-size: 0.75rem;">
-                        </div>
-                        <div class="progress" style="height: 25px; border-radius: 12px; overflow: hidden;">
-                            <div class="progress-bar bg-primary" role="progressbar" style="width:50%;"></div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Revit -->
-                <div class="d-flex align-items-center mb-4">
-                    <div class="me-3" style="width: 150px; text-align: right;">Revit</div>
-                    <div style="flex: 1; position: relative;">
-                        <div class="d-flex justify-content-between position-absolute w-100" style="top: -20px; font-size: 0.75rem;">
-                        </div>
-                        <div class="progress" style="height: 25px; border-radius: 12px; overflow: hidden;">
-                            <div class="progress-bar bg-primary" role="progressbar" style="width:25%;"></div>
-                        </div>
-                    </div>
-                </div>
-
-                <!--Bluebeam Revu-->
-                <div class="d-flex align-items-center mb-4">
-                    <div class="me-3" style="width: 150px; text-align: right;">Bluebeam Revu</div>
-                    <div style="flex: 1; position: relative;">
-                        <div class="d-flex justify-content-between position-absolute w-100" style="top: -20px; font-size: 0.75rem;">
-                        </div>
-                        <div class="progress" style="height: 25px; border-radius: 12px; overflow: hidden;">
-                            <div class="progress-bar bg-primary" role="progressbar" style="width:35%;"></div>
-                        </div>
-                    </div>
-                </div>
-
-                <!--Revizto-->
-                <div class="d-flex align-items-center mb-4">
-                    <div class="me-3" style="width: 150px; text-align: right;">Revizto</div>
-                    <div style="flex: 1; position: relative;">
-                        <div class="d-flex justify-content-between position-absolute w-100" style="top: -20px; font-size: 0.75rem;">
-                        </div>
-                        <div class="progress" style="height: 25px; border-radius: 12px; overflow: hidden;">
-                            <div class="progress-bar bg-primary" role="progressbar" style="width:35%;"></div>
-                        </div>
-                    </div>
-                </div>
-
-                <!--CODING LANGUAGES-->
-                <h3 class="text-align:left text-primary text-uppercase mb-4">Softwares</h3>
-
-                <!-- Another skill -->
-                <div class="d-flex align-items-center mb-4">
-                    <div class="me-3" style="width: 150px; text-align: right;">JavaScript</div>
-                    <div style="flex: 1; position: relative;">
-                        <div class="d-flex justify-content-between position-absolute w-100" style="top: -20px; font-size: 0.75rem;">
-                        </div>
-                        <div class="progress" style="height: 25px; border-radius: 12px; overflow: hidden;">
-                            <div class="progress-bar bg-success" role="progressbar" style="width: 50%;"></div>
-                        </div>
-                    </div>
-                </div>
-
-            <!-- Another skill -->
-            <div class="d-flex align-items-center mb-4">
-                <div class="me-3" style="width: 150px; text-align: right;">SolidWorks CAD
-                </div>
-                <div style="flex: 1; position: relative;">
-                    <div class="d-flex justify-content-between position-absolute w-100" style="top: -20px; font-size: 0.75rem;">
-                    </div>
-                    <div class="progress" style="height: 25px; border-radius: 12px; overflow: hidden;">
-                        <div class="progress-bar bg-info" role="progressbar" style="width: 80%;">
-                        </div>
-                    </div>
+                <div class="col-md-6 text-center"style="margin-bottom:20px; margin-top:60px;" >
+                    <h4 class="text-center">
+                        Simon Fraser University - Bachelors of Applied Science
+                    </h4>
+                    <p class="text-center">
+                        Mechatronics Concentration with Cooperative Education
+                        <br>Sept 2020 - Aug 2025
+                        <br>Recipient of Several Dean's Honor Roll Certifications
+                    </p>
                 </div>
             </div>
-            
-            
-        </div>
+        </section>
+<!-- ____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________-->             
+        <!--Skills-->
+        <section class="page-section" id="Ed and Awards">
+            <div class="container" style="margin-bottom:20px;">
+                <!-- Portfolio Section Heading-->
+                <h2 class="page-section-heading text-center text-uppercase mb-0">Awards</h2>
+                <!-- Icon Divider-->
+                <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>  
 
+                <div class="row align-items-center">
+                                
+                    <div class="col-md-6 text-center"style="margin-bottom:20px; margin-top:60px;" >
+                        <h4 class="text-center">
+                            Simon Fraser University - Bachelors of Applied Science
+                        </h4>
+                        <p class="text-center">
+                            Dean's Honour Roll (Aug. 2025) - Awarded for maintaining a TGPA above 3.5.
+                            <br>MSE Equity, Diversity, and Inclusion Champion Award (Sept. 2023 & Sept. 2024) - Awarded for promoting diversity and inclusion within the community.
+                            <br>MSE Leadership Award (Sept. 2023) - Awarded for excellent leadership within the community.
+                            <br>SFU Inspiring Women in Applied Science Award (Sept. 2023) - Awarded for maintaining a high GPA while pursuing prominent positions within the community.
+                            <br>Canada Company Bursary (Aug. 2021) - Awarded for great leadership and teamwork within the National Cadet Advisory Council. 
+                        </p>
+                    </div>
+                    <!--Image-->
+                    <div class="col-md-6 text-center"style="margin-bottom:20px; margin-top:60px;" >
+                        <img src="assets\img\Exp and Awards\braille win.jpg" 
+                            alt="My Photo"
+                            class="img-fluid rounded" 
+                            style="border-radius: 15px;">  
+                    </div>  
+                </div>
+            </div>
+        </section>      
 <!-- ____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________-->         
         <!--Interests-->
         <section class="page-section portfolio bg-primary text-white mb-0" id="portfolio">
@@ -465,11 +697,11 @@
                     <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
                     <div class="divider-custom-line"></div>
                 </div>
+
             </div>
         </section>
-        <!-- ____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________-->
+<!-- ____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________-->
         <!-- Contact Section-->
-
         <section class="page-section" id="contact">
             <div class="container">
                 <!-- Contact Section Heading-->
@@ -499,11 +731,13 @@
         </section>
 <!-- ____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________--> 
         <!-- Footer-->
-
         <footer class="footer text-center">
             <div class="container">
                 <h4 class="text-uppercase mb-4">Connect with me!</h4>
                 <a class="btn btn-outline-light btn-social mx-1" href="https://www.linkedin.com/in/adridellee/"><i class="fab fa-fw fa-linkedin-in"></i></a>
+                <p style="size:10px ;margin-top:20px;">
+                    Coded in HTML using VS Code and GitHub Pages by Adriana Lee
+                </p>
             </div>
         </footer>
         <!-- Copyright Section-->
@@ -512,7 +746,6 @@
         </div>
 <!-- ____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________-->         
         <!-- Portfolio Content-->
-
         <!-- Portfolio Modal Qualitex-->
         <div class="portfolio-modal modal fade" id="portfolioModalQualitex" tabindex="-1" aria-labelledby="portfolioModalQualitex" aria-hidden="true">
             <div class="modal-dialog modal-xl">
