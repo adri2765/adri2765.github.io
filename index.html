@@ -229,6 +229,19 @@
                             <h5 class="text-center mt-3" style="color:rgb(232, 232, 232)">Robotic Farm Hand</h5>
                         </div>
                     </div>
+                    <!-- Portfolio Item - ML BC Study***********************************-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModalML">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img 
+                                src="assets/img/Project Covers/ML farm.jpg" 
+                                alt="..." 
+                                style="width: 400px; height: 230px; border-radius: 50px;" />
+                            <h5 class="text-center mt-3" style="color:rgb(232, 232, 232)">Machine Learning BC Soil Study</h5>
+                        </div>
+                    </div>
                     <!-- Portfolio Item 2***********************************-->
                     <div class="col-md-6 col-lg-4 mb-5">
                         <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModalAss">
@@ -259,29 +272,7 @@
                             <h5 class="text-center mt-3"style="color:rgb(232, 232, 232)">Team Phantom Quick Release Steering Wheel</h5>
                         </div>
                     </div>
-                    
-                    <!-- Portfolio Item 5***********************************-->
-                    <!--
-                    <div class="col-md-6 col-lg-4 mb-5 mb-md-0">
-                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal5">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/Project Covers" alt="..." />
-                        </div>
-                    </div>
-                    -->
-                    <!-- Portfolio Item 6***********************************-->
-                    <!--
-                    <div class="col-md-6 col-lg-4">
-                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal6">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/Project Covers" alt="..." />
-                        </div>
-                    </div>
-                    -->
+
                 </div>
            <!--**********************************************************************************************************************************--> 
                 
@@ -1787,6 +1778,84 @@
                     </div>
                 </div>
             </div>
+
+            <!-- Portfolio Modal - ML Farming -->
+            <div class="portfolio-modal modal fade" id="portfolioModalML" tabindex="-1" aria-labelledby="portfolioModalQuack" aria-hidden="true">
+                <div class="modal-dialog modal-xl">
+                    <div class="modal-content">
+                        <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                        <div class="modal-body text-center pb-5">
+                            <div class="container">
+                                <div class="row justify-content-center">
+                                    <div class="col-lg-8">
+                                        <!-- Portfolio Modal - Title-->
+                                        <!-- Portfolio Modal - Title-->
+                                        <h3 class="portfolio-modal-title text-secondary text-uppercase mb-0">Predicting Soil Hydraulic Conductivity (KSat) using Machine Learning</h3>
+                                        <h5 class="text-secondary text-uppercase mb-0">(British Columbia Soil Study)</h5>
+                                        <!-- Icon Divider-->
+                                        <div class="divider-custom">
+                                            <div class="divider-custom-line"></div>
+                                            <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                            <div class="divider-custom-line"></div>
+                                        </div>
+                                        <!-- Portfolio Modal - Image-->
+                                        <img class="img-fluid rounded mb-5" src="assets/img/Project Covers/ML farm.jpg" alt="Soil KSat Prediction" style="width:420px; height:250px; object-fit:cover; border-radius:12px;" />
+
+                                        <!-- Portfolio Modal - Details-->
+                                        <p><strong>Date of Project:</strong> March 2023 – August 2023</p>
+                                        <p><strong>Project Role:</strong> Data Scientist / Machine Learning Analyst</p>
+
+                                        <!-- Portfolio Modal - Description-->
+                                        <h3 class="text-secondary text-uppercase mb-0" style="margin-bottom: 60px; margin-top: 50px;">Project Description</h3> 
+                                        <p class="mb-4" style="margin-top: 20px;"> 
+                                            This project focused on predicting <strong>saturated hydraulic conductivity (KSat)</strong> of British Columbia soils using machine learning, providing farmers with a cost-effective tool for understanding soil water dynamics. 
+                                            Using the <strong>PED_BC_DTL_SLF</strong> dataset from the Government of BC, soil parameters such as silt, sand, clay content, coarse fragments, bulk density, and water retention were analyzed. 
+                                            The dataset was preprocessed by removing irrelevant or incomplete features, addressing missing values, and selecting relevant predictors based on correlation analysis and literature review.
+                                            <br><br>
+                                            Multiple regression models—including <strong>Linear Regression, Decision Tree, Random Forest, Support Vector Regressor, K-Nearest Neighbors, and Boosted Regression Tree</strong>—were trained and evaluated with 10-fold cross-validation. Feature sets were compared using metrics such as MAE, MSE, RMSE, R2, and training time to determine the most accurate and robust model for KSat prediction.
+                                        </p>
+
+                                        <!-- Portfolio Modal - Technologies-->
+                                        <h3 class="text-secondary text-uppercase mb-0" style="margin-bottom: 60px; margin-top: 50px;">Technologies Used</h3> 
+                                        <ul style="text-align: left; margin-top: 20px;">
+                                            <li>Python with scikit-learn for model development and evaluation</li>
+                                            <li>Pandas and NumPy for dataset preprocessing and analysis</li>
+                                            <li>Correlation analysis and feature selection techniques</li>
+                                            <li>Regression algorithms: Linear, Decision Tree, Random Forest, SVR, KNN, BRT</li>
+                                            <li>10-fold cross-validation for model validation and robustness</li>
+                                        </ul>
+
+                                        <!-- Portfolio Modal - Outcomes-->
+                                        <h3 class="text-secondary text-uppercase mb-0" style="margin-bottom: 60px; margin-top: 50px;">Project Outcomes</h3> 
+                                        <ul style="text-align: left; margin-top: 20px;">
+                                            <li>Developed a machine learning framework to predict KSat using easily measurable soil features.</li>
+                                            <li>Random Forest Regressor trained on raw features achieved top performance.</li>
+                                            <li>Provided actionable insights for BC farmers to optimize irrigation and water usage in precision agriculture.</li>
+                                            <li>Established a reproducible workflow for testing multiple feature sets and regression models.</li>
+                                            <li>Demonstrated potential for integrating additional climate and geographic data for enhanced predictive accuracy.</li>
+                                        </ul>
+
+                                        <div class="container">
+                                            <h4 class="text-uppercase" style="margin-top:20px">Check out the project!</h4>
+                                            <div class="container" style="margin-top:20px; margin-bottom:20px;">
+                                                <a href="assets/img/Project Pictures/ksat slides.pdf" download class="btn btn-outline-dark">
+                                                    <i class="fas fa-download"></i> Download Project PDF
+                                                </a>
+                                            </div>
+
+                                        <button class="btn btn-primary" data-bs-dismiss="modal" style="margin-top:20px">
+                                            <i class="fas fa-xmark fa-fw"></i>
+                                            Close Window
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+
         </section>
         
 
