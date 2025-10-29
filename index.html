@@ -202,10 +202,10 @@
                 </div>
            <!--**********************************************************************************************************************************--> 
                 
-                <!-- Student Team Projects-->
+                <!-- Student Projects-->
                 <!-- Portfolio Grid Items-->
                 <div class="row justify-content-center">
-                    <h2 class="page-section-heading text-center text-white" style="margin-bottom: 30px;margin-top: 60px;">Student Team Projects</h2>
+                    <h2 class="page-section-heading text-center text-white" style="margin-bottom: 30px;margin-top: 60px;">Student Projects</h2>
                     <!-- Portfolio Item 1***********************************-->
                     <div class="col-md-6 col-lg-4 mb-5">
                         <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModalJig">
@@ -252,6 +252,19 @@
                             <h5 class="text-center mt-3" style="color:rgb(232, 232, 232)">Prototype Assembly Line</h5>
                         </div>
                     </div>
+                    <!-- Portfolio Item - Catapult***********************************-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModalCata">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img 
+                                src="assets/img/Project Covers/Catapult.png" 
+                                alt="..." 
+                                style="width: 400px; height: 230px; border-radius: 50px;" />
+                            <h5 class="text-center mt-3" style="color:rgb(232, 232, 232)">Precision Catapult Project</h5>
+                        </div>
+                    </div>                    
                     <!-- Portfolio Item 3***********************************-->
                     <div class="col-md-6 col-lg-4 mb-5">
                         <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModalFan">
@@ -1803,7 +1816,7 @@
 
                                         <!-- Portfolio Modal - Details-->
                                         <p><strong>Date of Project:</strong> March 2023 – August 2023</p>
-                                        <p><strong>Project Role:</strong> Data Scientist / Machine Learning Analyst</p>
+                                        <p><strong>Project Role:</strong> Machine Learning Analyst</p>
 
                                         <!-- Portfolio Modal - Description-->
                                         <h3 class="text-secondary text-uppercase mb-0" style="margin-bottom: 60px; margin-top: 50px;">Project Description</h3> 
@@ -1847,6 +1860,82 @@
                                             <i class="fas fa-xmark fa-fw"></i>
                                             Close Window
                                         </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+
+            <!-- Portfolio Modal - Catapult -->
+            <div class="portfolio-modal modal fade" id="portfolioModalCata" tabindex="-1" aria-labelledby="portfolioModalCata" aria-hidden="true">
+                <div class="modal-dialog modal-xl">
+                    <div class="modal-content">
+                        <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                        <div class="modal-body text-center pb-5">
+                            <div class="container">
+                                <div class="row justify-content-center">
+                                    <div class="col-lg-8">
+                                        <!-- Portfolio Modal - Title-->
+                                        <h5 class="text-center mt-3">🏅MECHATRONICS DESIGN🏅</h5>
+                                        <h3 class="portfolio-modal-title text-secondary text-uppercase mb-0">Catapult Arm Design and DC Motor Control</h3>
+                                        <h5 class="text-secondary text-uppercase mb-0">(Mechanical & Electrical Integration)</h5>
+                                        <!-- Icon Divider-->
+                                        <div class="divider-custom">
+                                            <div class="divider-custom-line"></div>
+                                            <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                            <div class="divider-custom-line"></div>
+                                        </div>
+
+                                        <!-- Portfolio Modal - Video-->
+                                        <video class="img-fluid rounded mb-5" width="420" height="250" style="object-fit:cover; border-radius:12px;" autoplay muted loop>
+                                            <source src="assets/img/Project Pictures/cata.mp4" type="video/mp4">
+                                        </video>
+
+                                        <!-- Portfolio Modal - Details-->
+                                        <p><strong>Date of Project:</strong> September 2023 – December 2023</p>
+                                        <p><strong>Project Role:</strong> Mechanical & Control Systems Lead</p>
+
+                                        <!-- Portfolio Modal - Description-->
+                                        <h3 class="text-secondary text-uppercase mb-0" style="margin-bottom: 60px; margin-top: 50px;">Project Description</h3> 
+                                        <p class="mb-4" style="margin-top: 20px;"> 
+                                            This project involved the <strong>design, analysis, and control of a catapult mechanism</strong> with a mechanical arm optimized for low deflection and minimal moment of inertia (MOI). 
+                                            Multiple mechanical arm designs were explored, including a brass rod design and two 3D-printed variants. SolidWorks CAD modeling and <strong>Finite Element Analysis (FEA)</strong> simulations were used to evaluate structural performance under a 5N load. 
+                                            The final design leveraged a Warren truss structure for an optimal strength-to-weight ratio and was fabricated using PLA filament, validated through experimental testing.
+                                            <br><br>
+                                            Additionally, the project included the design of an <strong>electronic drive and control system</strong> for a DC motor controlling the catapult arm. 
+                                            MATLAB and Simulink simulations were used to derive transfer functions, perform root-locus analysis, and tune a PID controller. The electrical system integrated an Arduino Mega 2560, GM8224S009 DC servo gearmotor, TOSHIBA TB6568KQ full-bridge driver, and DM74LS00 NAND gates to ensure precise, repeatable catapult movements.
+                                        </p>
+
+                                        <!-- Portfolio Modal - Technologies-->
+                                        <h3 class="text-secondary text-uppercase mb-0" style="margin-bottom: 60px; margin-top: 50px;">Technologies Used</h3> 
+                                        <ul style="text-align: left; margin-top: 20px;">
+                                            <li>SolidWorks for mechanical CAD modeling and assembly</li>
+                                            <li>Finite Element Analysis (FEA) for structural evaluation</li>
+                                            <li>PLA 3D printing for prototype fabrication</li>
+                                            <li>MATLAB & Simulink for control system modeling and simulation</li>
+                                            <li>Arduino Mega 2560 for motor control</li>
+                                            <li>PWM and PID control for precise DC motor actuation</li>
+                                            <li>Electronic circuit design using TB6568KQ driver and DM74LS00 logic gates</li>
+                                        </ul>
+
+                                        <!-- Portfolio Modal - Outcomes-->
+                                        <h3 class="text-secondary text-uppercase mb-0" style="margin-bottom: 60px; margin-top: 50px;">Project Outcomes</h3> 
+                                        <ul style="text-align: left; margin-top: 20px;">
+                                            <li>Developed and optimized a 3D-printed catapult arm with low deflection and minimal MOI.</li>
+                                            <li>Validated mechanical performance experimentally under load conditions.</li>
+                                            <li>Designed and simulated a DC motor control system achieving precise, repeatable catapult movements.</li>
+                                            <li>Implemented MATLAB/Simulink control strategy and PID tuning for effective actuation.</li>
+                                            <li>Integrated mechanical and electrical systems into a functional prototype.</li>
+                                        </ul>
+
+                                        <button class="btn btn-primary" data-bs-dismiss="modal" style="margin-top:20px">
+                                            <i class="fas fa-xmark fa-fw"></i>
+                                            Close Window
+                                        </button>
+
                                     </div>
                                 </div>
                             </div>
